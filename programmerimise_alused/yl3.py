@@ -1,7 +1,8 @@
-a = input("T või F: ")
-if a == "T":
-    print("a on tõene")
-    print("True")
+x=int(input("arv1: "))
+y=int(input("arv2: "))
+if x > y:
+    print ("arv1 on suurem.")
+elif x == y:
+    print ("arvud on võrdsed")
 else:
-    print("a on väär")
-    print("False")
+    print ("arv2 on suurem")
