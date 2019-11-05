@@ -1,8 +1,8 @@
 n = int(input("Enter number: "))
 
-a = 0
-while a < n:
-        print (a*a)
-        a += 1
-        if a > n:
+k = 0
+while k < n:
+        print (k*k)
+        k += 1
+        if k > n:
             break
