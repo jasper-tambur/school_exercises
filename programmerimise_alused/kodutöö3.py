@@ -1,4 +1,4 @@
-n = int(input("Enter number: "))
+n = int(input("Sisend: "))
 
 k = 0
 while k < n:
