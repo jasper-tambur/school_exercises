@@ -1,8 +1,3 @@
-n = int(input("Sisend: "))
-
-k = 0
-while k < n:
-        print (k*k)
-        k += 1
-        if k > n:
-            break
+n=int(input("input number: "))
+list1 = [k * k for k in range(0, n)]
+print(list1)
