@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA Compatible" content="ie-edge">
+    <link rel="stylesheet" href="style.css">
+    <title>boo</title>
+</head>
+<body>
+    <button id="toggle">Toggle</button>
+    <nav>
+        <div class="item">Menu item</div>
+        <div class="item">Menu item</div>
+        <div class="item">Menu item</div>
+        <div class="item">Menu item</div>
+        <div class="item">Menu item</div>
+    </nav>
+    <script>
+        const toggle = document.querySelector('toggle')
+
+            toggle.addEventListener('click',click)
+
+            function click(){
+                document.querySelector('nav').classList.toggle('click')
+            }
+    </script>
+</body>
+</html> 
